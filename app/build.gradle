@@ -28,6 +28,19 @@ android {
         targetCompatibility JavaVersion.VERSION_18
     }
 }
+publishing {
+    publications {
+        // 这个mavenJava可以随便填，只是一个任务名字而已
+        // MavenPublication必须有，这个是调用的任务类
+        mavenJava(MavenPublication) {
+            // 这里头是artifacts的配置信息，不填会采用默认的
+            groupId = 'com.github.sunineguo'
+            artifactId = 'PermissionTool'
+            version = '1.0.7'
+//            from components.java
+        }
+    }
+}
 
 dependencies {
 
