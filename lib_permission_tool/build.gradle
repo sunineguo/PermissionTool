@@ -27,22 +27,6 @@ android {
 
 }
 
-//afterEvaluate {
-//    publishing{
-//
-//    }
-
-//    publishing {
-//        publications {
-//            release(MavenPublication) {
-//                from components.release
-//                groupId = 'com.github.sunineguo' //groupId 随便取
-//                artifactId = 'PermisstionTool'  //artifactId 随便取
-//                version = '1.0.4'
-//            }
-//        }
-//    }
-//}
 
 dependencies {
 
