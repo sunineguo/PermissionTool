@@ -13,6 +13,8 @@ dependencyResolutionManagement {
     }
 }
 
+
+
 rootProject.name = "PermissionTool"
 include ':app'
 include ':lib_permission_tool'
