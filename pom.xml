@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project
-    xsi:schemalocation="http://maven.apache.org/P0M/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd"
-    xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemalocation="http://maven.apache.org/P0M/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groudId>com.github.sunineguo</groudId>
+    <groupId>com.github.sunineguo</groupId>
     <artifactId>lib_permission_tool</artifactId>
     <version>1.0.11</version>
     <packaging>pom</packaging>
@@ -12,11 +11,11 @@
 </project>
 
 
-<!--*project xsi:schemalocation="http://maven.apache.org/P0M/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xminss"'-->
-<!--    http://maven.apache.org/POM/4.0.0-->
-<!--    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
-<!--    cmodelVersion:4.0.8</modelVersion>-->
-<!--    8-->
-<!--<groupId>com.github.imchampagnepapi</groupId><artifactid>android-demo-lib</artifactId>-->
-<!--<version>1.0</version>-->
-<!--<packaging>pom</packaging><description>First Android Li/descraption>-->
+    <!--*project xsi:schemalocation="http://maven.apache.org/P0M/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xminss"'-->
+    <!--    http://maven.apache.org/POM/4.0.0-->
+    <!--    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">-->
+    <!--    cmodelVersion:4.0.8</modelVersion>-->
+    <!--    8-->
+    <!--<groupId>com.github.imchampagnepapi</groupId><artifactid>android-demo-lib</artifactId>-->
+    <!--<version>1.0</version>-->
+    <!--<packaging>pom</packaging><description>First Android Li/descraption>-->
