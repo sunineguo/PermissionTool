@@ -1,3 +1,14 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        mavenLocal()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.1'
+    }
+}
+
 plugins {
     id 'com.android.library'
     id 'maven-publish'
@@ -24,9 +35,18 @@ android {
         sourceCompatibility JavaVersion.VERSION_18
         targetCompatibility JavaVersion.VERSION_18
     }
-
 }
 
+java {
+    toolchain{
+        languageVersion = JavaLanguageVersion.of(18)
+    }
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_18
+    targetCompatibility = JavaVersion.VERSION_18
+}
 
 dependencies {
 
@@ -35,4 +55,21 @@ dependencies {
 //    testImplementation 'junit:junit:4.13.2'
 //    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
 //    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
+
+publishing{
+    publications{
+        maven(MavenPublication){
+            groupId = 'com.github.sunineguo'
+            artifactId = 'lib_permission_tool'
+            version = "1.0.11"
+            pom{
+                description = 'DESC'
+            }
+
+        }
+    }
+    repositories{
+        mavenLocal()
+    }
 }
